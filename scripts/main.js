@@ -7,7 +7,7 @@ $(document).ready(function () {
                 var addCart = '<button>加入购物车</button>';
                 var listItem = $('<tr>\
                             <td>' + item.name + '</td>\
-                            <td class="price">' + item.price + '</td>\
+                            <td>' + item.price + '</td>\
                             <td>' + item.unit + '</td>\
                             <td>' + addCart + '</td>\
                           </tr>');
