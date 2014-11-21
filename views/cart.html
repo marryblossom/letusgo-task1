@@ -13,13 +13,13 @@
   <ul>
     <li><a href="../index.html">主页</a></li>
     <li><a href="items.html">商品列表</a></li>
-    <li><a href="#">购物车(<span id="count">2</span>)</a></li>
+    <li><a href="#">购物车(<span id="count"></span>)</a></li>
   </ul>
 </nav>
 
 <div>
   <h4>购物清单</h4>
-  <table>
+  <table id="cart-table">
     <thead>
     <tr>
       <th>名称</th>
@@ -34,14 +34,14 @@
       <td>可口可乐</td>
       <td>3</td>
       <td>瓶</td>
-      <td>1</td>
+      <td class="num">1</td>
       <td>3</td>
     </tr>
     <tr>
       <td>雪碧</td>
       <td>3</td>
       <td>瓶</td>
-      <td>1</td>
+      <td class="num">1</td>
       <td>3</td>
     </tr>
     </tbody>
@@ -52,13 +52,15 @@
   <p>总计：<span>6.00元</span></p>
   <a href="./payment.html">付款</a>
 </div>
-
 <script type="text/javascript" src="../lib/jquery-2.1.1/jquery-2.1.1.js"></script>
 <script type="text/javascript" src="../lib/bootstrap-3.2.0-dist/js/bootstrap.js"></script>
 <script type="text/javascript" src="../lib/lodash-2.4.1/lodash.compat.js"></script>
 <script type="text/javascript" src="../spec/fixtures.js"></script>
 <script type="text/javascript" src="../scripts/model/item.js"></script>
+<script type="text/javascript" src="../scripts/model/cart.js"></script>
+<script type="text/javascript" src="../scripts/model/cookies.js"></script>
 <script type="text/javascript" src="../scripts/model/promotion.js"></script>
+<script type="text/javascript" src="../scripts/model/itemHandle.js"></script>
 <script type="text/javascript" src="../scripts/utils.js"></script>
 <script type="text/javascript" src="../scripts/main.js"></script>
 

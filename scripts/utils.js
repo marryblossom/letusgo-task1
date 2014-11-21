@@ -14,7 +14,16 @@ var utils = (function (){
         return  year + '年' + month + '月' + date + '日 ' + hour + ':' + minute + ':' + second;
     };
 
+    var getNum = function (string) {
+      var start = string.indexOf(">");
+      var end = string.lastIndexOf("<");
+      return string.substring(start+1, end);
+    };
+
     return {
-        getDate: getDate
-    }
+        getDate: getDate,
+        getNum : getNum,
+    };
+
+
 })();

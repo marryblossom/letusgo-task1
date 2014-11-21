@@ -16,7 +16,5 @@ function loadPromotions() {
             'ITEM000001',
             'ITEM000005'
         ])
-    ]
+    ];
 }
-
-
